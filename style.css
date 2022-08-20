@@ -1,0 +1,103 @@
+
+.bg-img {
+    background-image: url("https://www.freepnglogos.com/uploads/rick-and-morty-png/list-rick-and-morty-episodes-wikipedia-24.png");
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .container1 {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    padding: auto;
+  }
+  
+  .topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    background-color: rgb(182, 225, 228);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.main-container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+    text-align: center;
+  }
+
+  .position{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    
+  }
+
+.pre{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+}
+
+.position1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+} 
+
+.foot{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+  
+  @media only screen and (max-width: 575px) {
+    .main-container {
+      width: 100%;
+    }
+  }
